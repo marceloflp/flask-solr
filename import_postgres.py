@@ -4,7 +4,7 @@ import psycopg2
 from psycopg2.extras import execute_values
 
 
-df = pd.read_csv('/home/marcelo/Documentos/GerenConfigServ/atividade6/data/cbo2002-ocupacao.csv', 
+df = pd.read_csv('./data/cbo2002-ocupacao.csv', 
                  sep=';', 
                  encoding='iso-8859-1') 
 
